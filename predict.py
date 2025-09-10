@@ -58,7 +58,7 @@ def extract_features(value: str) -> dict:
 
 def prepare_training_data():
     base_dir = os.path.dirname(__file__)
-    data_dir = os.path.join(base_dir, "TrainingData")
+    data_dir = os.path.join(base_dir, "TestingData")
 
     phone_df = pd.read_csv(os.path.join(data_dir, "phone.csv"))
     company_df = pd.read_csv(os.path.join(data_dir, "company.csv"))

@@ -24,8 +24,10 @@ This project provides an agent-based pipeline for semantic classification and pa
    ```sh
    pip install pandas numpy scikit-learn xgboost phonenumbers python-dateutil
 
-## Testing
+## Steps to run the program
 
-    **Run the following command from the root directory of the project**
-    ```sh
-    python agent.py --input TrainingData
+1. Put your test datasets inside the TestingData directory.
+2. Execute the following command in the terminal:
+   ```sh
+   python agent.py --input TestingData/<dataset_filename>.csv --output results.csv
+3. You can check the output in the newly generated **results.csv** file.
